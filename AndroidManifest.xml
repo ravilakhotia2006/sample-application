@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spdp.nettech"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+	<uses-library android:required="true" android:name="com.google.android.maps"></uses-library>
+    <application
+        android:icon="@drawable/n"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".Launcher" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name=".ParticipantList">
+        </activity>
+        <activity
+            android:name=".MenuOngoing"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".CourseMaterial">
+        </activity>
+        <activity 
+            android:name=".Schedule">
+        </activity>
+        <activity
+            android:name=".MenuGonnabe">
+        </activity>
+        <activity
+            android:name=".AboutUs">
+        </activity>
+        <activity
+            android:name=".Challenge">
+        </activity>
+         <activity
+            android:name=".Assignments">
+        </activity>        
+         <activity
+            android:name=".Registration">
+        </activity>
+        <activity 
+            android:name=".ViewLocation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity 
+            android:name=".Ongoing">
+        </activity>
+        <activity 
+            android:name=".Gonnabe">
+        </activity>
+        
+        <uses-library android:name="com.google.android.maps"/>
+        </application>
+        
+		<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+        <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+		<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+		<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello"> </string>
+    <string name="app_name">Nettech</string>
+	<string name="about1">Nettech, established in 2002, is a full Information Technology consulting and development firm specializing in the area of computer networking. At Nettech, client relationships are the cornerstone of our business. We place tremendous importance on establishing open, collaborative relationships with our clients, each of which, we build on a foundation of trust.</string>
+    <string name="name"> Swapan Purkait</string>
+    <string name="addline1"> Nettech Private Limited </string>
+    <string name="addline2"> 3B, Hindusthan Road</string>
+	<string name="addline3"> Prashanti, Flat no 1D</string>
+	<string name="addline4"> Kolkata </string>
+	<string name="phone1"> + 91 93315 90003</string>
+	<string name="phone2"> + 91 93395 90003</string>
+	<string name="email"> swapan@nettech.in</string>
+	<string name="site"> www.nettech.in</string>
+	<string name="question"> You are requested to find flags in the below mentioned 3 problems.
+Flag can be a code, a statement or a word. They are hidden in these 3 problems.
+You are requested to find the flags. As these are demo questions there are no marks no prizes.
+All the best.</string>
+	<string name="sex"> SEX </string>
+	<string name="locate">Select option</string>
+	<string-array name="Campus_Name">
+		<item>Ongoing</item>
+		<item>About to start</item>
+	</string-array>
+	<string-array name="gender">
+		<item>Male</item>
+		<item>Female</item>
+	</string-array>
+	<string-array name="Course_Work">
+		<item>Basic Linux Commands</item>
+		<item>Basic DOS Commands</item>
+		<item>Operating Systems</item>
+		<item>File Systems</item>
+	</string-array>
+</resources>

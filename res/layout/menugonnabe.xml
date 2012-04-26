@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bckgrnd1">
+	
+        <TextView 
+        android:text=""
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    	
+	    <ImageView
+	            android:id="@+id/IB01"
+    			android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+   				android:src="@drawable/registration"
+   				android:clickable="true"
+   				android:layout_gravity="center_horizontal"
+   				android:layout_marginBottom="5dp"
+   				android:layout_marginTop="10dp">
+	    	</ImageView>
+        	    <ImageView
+	            android:id="@+id/IB02"
+    			android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+   				android:src="@drawable/course_materials"
+   				android:clickable="true"
+   				android:layout_gravity="center_horizontal"
+   				android:layout_marginBottom="5dp"
+   				android:layout_marginTop="10dp">
+	    	</ImageView>
+	    <ImageView
+	            android:id="@+id/IB03"
+    			android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+   				android:src="@drawable/schedule"
+   				android:clickable="true"
+   				android:layout_gravity="center_horizontal"
+   				android:layout_marginBottom="5dp"
+   				android:layout_marginTop="10dp">
+	    	</ImageView>
+	    <ImageView
+	            android:id="@+id/IB04"
+    			android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+   				android:src="@drawable/about_us"
+   				android:clickable="true"
+   				android:layout_gravity="center_horizontal"
+   				android:layout_marginBottom="5dp"
+   				android:layout_marginTop="10dp">
+	    	</ImageView>
+	        	        
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:textSize="17dp"
+        android:typeface="sans"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/coursem_filename"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:textColor="#39094B"
+        android:layout_margin="5dp"/>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:id="@+id/campusname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="2dp"
+        android:textColor="#39094B"
+        android:textSize="15dp"
+        android:typeface="sans"
+        android:textStyle="bold">
+    	</TextView>
+</LinearLayout>
